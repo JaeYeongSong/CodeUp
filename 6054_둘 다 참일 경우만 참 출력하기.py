@@ -1,3 +1,3 @@
-a, b = input().split()
+a, b = list(map(int, input().split()))
 
-print(bool(int(a)) and bool(int(b)))
+print(bool(a) and bool(b))
